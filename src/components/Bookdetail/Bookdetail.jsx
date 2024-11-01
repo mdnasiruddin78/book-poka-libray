@@ -3,8 +3,8 @@ import {  useParams } from "react-router-dom";
 
 const Bookdetail = () => {
 
-    const bookId = useParams()
-
+    const {bookId} = useParams()
+    console.log(bookId)
     return (
         <div>
             <h3>book details: {bookId}</h3>
